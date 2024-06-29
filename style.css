@@ -2,8 +2,25 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: beige; */
 }
 
 #desert {
-    
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    background-image: url("t-rex-background.png");
+}
+
+.grid {
+    /* background-color: aquamarine; */
+    border: 1px solid salmon;
+    padding: 3rem;
+}
+
+.dino {
+    width: 100%;
+    height: 6rem;
+    background-image: url("t-rex.png");
+    background-repeat: no-repeat;
 }
