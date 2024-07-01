@@ -38,8 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
        };
 
        function generateObstacles() {
-        
+        let obstaclePosition = 1000;
+        const obs = document.createElement('div');
+        obs.classList.add('obstacle')
+        grid.appendChild(obs)
+        obs.style.left = obstaclePosition + 'px'
+
        }
+       generateObstacles()
 
        document.addEventListener("keyup", control);
 });
